@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="simCl">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulate Click</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="controller/mainCtrl.js"></script>
+    <script src="directive/simclick.js"></script>
+</head>
+<body>  <p></p>
+        <sim-click callback="$ctrl.incrementId()"> </sim-click>
+        <sim-click callback="$ctrl.incrementId()"></sim-click>
+        <sim-click callback="$ctrl.incrementId()"></sim-click>
+</body>
+</html>
